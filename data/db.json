@@ -1,0 +1,936 @@
+{
+  "admin": {
+    "username": "admin@electrocare.com",
+    "salt": "443f8c2433dff0d8468b16b1d9ddb638",
+    "passwordHash": "88eabbfef0e4cdcb67b65bc4b41554b6ee42ffee03a599b41835217a55398f9586f6f30ebbf265ff432d71c84e69e2d4c9e5a94476f6fb919202da0fbac0115a",
+    "updatedAt": "2026-10-23T15:46:02.408Z"
+  },
+  "sessions": [
+    {
+      "token": "34bd50b9c1d4682ab337a9ebed7fe42781e5afe80cbee83d3d14760d6a1a242d",
+      "createdAt": 1792861729098,
+      "expiresAt": 1792948129098
+    }
+  ],
+  "enquiries": [
+    {
+      "id": "EC-94812",
+      "name": "Marcus Vance",
+      "email": "m.vance@apexlogistics.com",
+      "phone": "+91 98234 89012",
+      "category": "electricity_bill_reduction",
+      "propertyType": "Commercial Warehouse",
+      "estimatedMonthlyBill": "₹25,000 - ₹50,000",
+      "preferredContactTime": "Morning (9 AM - 12 PM)",
+      "message": "We operate a 25,000 sq ft logistics facility with 4 cold storage units. Our electricity bills increased significantly. We need a comprehensive review of peak tariff usage and power factor correction.",
+      "status": "new",
+      "priority": "high",
+      "adminNotes": [
+        {
+          "id": "note-1",
+          "text": "Initial review scheduled with senior electrical engineer for Friday 10 AM.",
+          "createdAt": "2026-10-23T10:46:02.334Z",
+          "author": "Lead Auditor"
+        }
+      ],
+      "createdAt": "2026-10-22T15:46:02.334Z",
+      "updatedAt": "2026-10-23T10:46:02.334Z"
+    },
+    {
+      "id": "EC-63204",
+      "name": "Dr. Evelyn Reed",
+      "email": "evelyn.reed@biotechlabs.org",
+      "phone": "+91 98724 41920",
+      "category": "energy_audit",
+      "propertyType": "Research Facility / Lab",
+      "estimatedMonthlyBill": "₹50,000+",
+      "preferredContactTime": "Afternoon (1 PM - 5 PM)",
+      "message": "Seeking Level 2 Energy Audit guidance for our laboratory electronics and sensitive diagnostic analyzers. We experience frequent voltage harmonic noise that impacts delicate sensors.",
+      "status": "in_progress",
+      "priority": "urgent",
+      "adminNotes": [],
+      "createdAt": "2026-10-21T15:46:02.334Z",
+      "updatedAt": "2026-10-21T15:46:02.334Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-1-ceiling-fan",
+      "name": "BLDC Ultra-Quiet Ceiling Fan",
+      "category": "Cooling & Fans",
+      "price": 2499,
+      "originalPrice": 3499,
+      "rating": 4.8,
+      "reviewsCount": 142,
+      "inStock": true,
+      "energyRating": "5-Star BLDC (65% Power Saving)",
+      "shortDesc": "Brushless DC motor with RF remote control, aerodynamically balanced blades and 28W ultra-low power consumption.",
+      "description": "Engineered for silent, high air-delivery operation. The smart brushless DC motor consumes merely 28 watts at top speed, saving up to ₹1,800 annually on electricity compared to conventional induction fans.",
+      "imageUrl": "/products/ceiling_fan.jpg",
+      "specs": [
+        "1200mm Sweep Size",
+        "28W BLDC Motor",
+        "Multi-speed Remote with Sleep Mode",
+        "230 CMM High Air Delivery",
+        "3-Year On-site Warranty"
+      ],
+      "badge": "Popular"
+    },
+    {
+      "id": "prod-2-refrigerator",
+      "name": "Frost-Free Inverter Refrigerator (265L)",
+      "category": "Kitchen Appliances",
+      "price": 14999,
+      "originalPrice": 19499,
+      "rating": 4.9,
+      "reviewsCount": 98,
+      "inStock": true,
+      "energyRating": "5-Star Digital Inverter",
+      "shortDesc": "Double-door convertible refrigerator with smart digital inverter compressor and multi-airflow deodorizer.",
+      "description": "Equipped with an intelligent inverter compressor that auto-tunes its cooling speed according to cooling demand. Keeps vegetables crisp for up to 15 days with 0.5 kWh daily energy footprint.",
+      "imageUrl": "/products/refrigerator.jpg",
+      "specs": [
+        "265 Liters Capacity",
+        "Twin Cooling Plus Technology",
+        "Toughened Glass Shelves",
+        "Stabilizer-Free 100V-300V",
+        "10-Year Compressor Warranty"
+      ],
+      "badge": "Best Value"
+    },
+    {
+      "id": "prod-3-air-conditioner",
+      "name": "Dual Inverter Split Air Conditioner (AC 1.5 Ton)",
+      "category": "Cooling & Fans",
+      "price": 29999,
+      "originalPrice": 38999,
+      "rating": 4.9,
+      "reviewsCount": 184,
+      "inStock": true,
+      "energyRating": "5-Star Heavy Duty Inverter",
+      "shortDesc": "Copper condenser coil with anti-corrosion blue-fin coating, 6-in-1 convertible cooling and PM 2.5 air filter.",
+      "description": "Rapidly cools rooms even under extreme 52°C outdoor heat. The dual-rotary inverter compressor adjusts motor speed dynamically, dropping electricity usage by up to 40% compared to non-inverter models.",
+      "imageUrl": "/products/air_conditioner.jpg",
+      "specs": [
+        "1.5 Ton (Suitable for 150-180 sq ft)",
+        "100% Copper Condenser",
+        "6-in-1 Flexi Cooling Modes",
+        "Silent 26dB Quiet Mode",
+        "Eco-Friendly R32 Refrigerant"
+      ],
+      "badge": "Bestseller"
+    },
+    {
+      "id": "prod-4-washing-machine",
+      "name": "Smart Inverter Front-Load Washing Machine (7.5 kg)",
+      "category": "Laundry & Care",
+      "price": 12999,
+      "originalPrice": 17499,
+      "rating": 4.8,
+      "reviewsCount": 76,
+      "inStock": true,
+      "energyRating": "5-Star Eco-Wash",
+      "shortDesc": "Fully automatic front-load with Steam Hygiene wash, stainless steel diamond drum, and built-in water heater.",
+      "description": "Designed to tackle stubborn stains with gentle fabric care. Inverter direct-drive motor delivers high spin efficiency of 1400 RPM while minimizing vibration, noise, and water consumption.",
+      "imageUrl": "/products/washing_machine.jpg",
+      "specs": [
+        "7.5 kg Wash Capacity",
+        "1400 RPM Spin Speed",
+        "Built-in Heater (Up to 60°C)",
+        "In-built Water Softener Filter",
+        "12 Smart Wash Programs"
+      ],
+      "badge": "Hot Deal"
+    },
+    {
+      "id": "prod-5-led-tv",
+      "name": "4K Ultra HD Smart LED TV (43-inch)",
+      "category": "Home Entertainment",
+      "price": 9999,
+      "originalPrice": 14499,
+      "rating": 4.7,
+      "reviewsCount": 215,
+      "inStock": true,
+      "energyRating": "A+ Power Efficient Screen",
+      "shortDesc": "Bezel-less cinema display with Dolby Audio, HDR10+, Dual-Band Wi-Fi, and Google TV voice control.",
+      "description": "Immersive entertainment experience with vivid 4K resolution (3840x2160) and 24W box stereo speakers. Features low blue-light eye protection and energy-saving standby mode under 0.5W.",
+      "imageUrl": "/products/smart_tv.jpg",
+      "specs": [
+        "43\" 4K UHD Bezel-less Display",
+        "Dolby Audio 24W Speakers",
+        "3 HDMI & 2 USB Ports",
+        "Google TV OS with Play Store",
+        "Chromecast Built-in"
+      ],
+      "badge": "Top Rated"
+    },
+    {
+      "id": "prod-6-mixer-grinder",
+      "name": "Heavy-Duty 750W Mixer Grinder (3 Jars)",
+      "category": "Kitchen Appliances",
+      "price": 1999,
+      "originalPrice": 2899,
+      "rating": 4.8,
+      "reviewsCount": 165,
+      "inStock": true,
+      "energyRating": "Copper-Wound High Torque",
+      "shortDesc": "Pure copper armature motor with 3 stainless steel leak-proof jars and auto-shutoff overload protection.",
+      "description": "Grinds hard ingredients like turmeric, coffee beans, and soaked pulses with ease. Equipped with multi-utility stainless steel blades and dual exhaust vents for cooler motor operation.",
+      "imageUrl": "/products/mixer_grinder.jpg",
+      "specs": [
+        "750 Watts 100% Copper Motor",
+        "3 SS Jars (1.5L, 1.0L, 0.4L Chutney)",
+        "3-Speed Knob with Pulse",
+        "Thermal Overload Tripping Switch",
+        "Food-Grade Silicon Gaskets"
+      ],
+      "badge": "Essential"
+    },
+    {
+      "id": "prod-7-water-purifier",
+      "name": "RO + UV + MTDS Alkaline Water Purifier",
+      "category": "Water & Purification",
+      "price": 6999,
+      "originalPrice": 9499,
+      "rating": 4.9,
+      "reviewsCount": 112,
+      "inStock": true,
+      "energyRating": "Zero Water Wastage Tech",
+      "shortDesc": "8-stage water purifier with copper-zinc infusion, TDS controller, and 8.5-liter food-grade storage tank.",
+      "description": "Removes dissolved impurities, heavy metals, bacteria, and microplastics while replenishing essential alkaline minerals for healthy drinking water. Features smart LED tank full and filter change alerts.",
+      "imageUrl": "/products/water_purifier.jpg",
+      "specs": [
+        "8-Stage Filtration System",
+        "8.5L Storage Reservoir",
+        "Active Copper Mineral Booster",
+        "Suitable for Borewell & Municipal Water (up to 2000 TDS)",
+        "Smart LED Indicators"
+      ],
+      "badge": "Healthy Living"
+    },
+    {
+      "id": "prod-8-air-cooler",
+      "name": "Desert Air Cooler with Honeycomb Pads (55L)",
+      "category": "Cooling & Fans",
+      "price": 5499,
+      "originalPrice": 7299,
+      "rating": 4.7,
+      "reviewsCount": 88,
+      "inStock": true,
+      "energyRating": "Low 185W Power Draw",
+      "shortDesc": "High-throw motorized louvers with dense antibacterial honeycomb pads and built-in ice chamber.",
+      "description": "Delivers high-velocity cooling for living rooms and terraces up to 350 sq ft. The low 185W power consumption allows it to run smoothly on home inverters during power outages.",
+      "imageUrl": "/products/air_cooler.jpg",
+      "specs": [
+        "55 Liters Water Capacity",
+        "3500 m³/hr Powerful Air Delivery",
+        "45 ft Long Air Throw",
+        "Inverter Compatible (185W)",
+        "Fully Collapsible Multi-directional Wheels"
+      ],
+      "badge": "Seasonal Pick"
+    },
+    {
+      "id": "prod-9-electric-iron",
+      "name": "Non-Stick Dry & Steam Electric Iron",
+      "category": "Laundry & Care",
+      "price": 999,
+      "originalPrice": 1499,
+      "rating": 4.8,
+      "reviewsCount": 230,
+      "inStock": true,
+      "energyRating": "Fast Heating Thermo-Guard",
+      "shortDesc": "Heavy golden American heritage non-stick soleplate with 360-degree swivel cord and multi-fabric temperature dial.",
+      "description": "Glide effortlessly across silk, cotton, and denim without sticking or burning. The instant heating dual element heats in seconds, automatically cutting off power when preset temperatures are reached.",
+      "imageUrl": "/products/steam_iron.jpg",
+      "specs": [
+        "1000W Quick Heating Element",
+        "Non-stick American Heritage Coating",
+        "Variable Fabric Temperature Dial",
+        "360° Flexible Swivel Cord",
+        "Thermal Safety Cut-off Fuse"
+      ],
+      "badge": "Value Buy"
+    },
+    {
+      "id": "prod-10-microwave-oven",
+      "name": "Convection Microwave Oven with Grill (28L)",
+      "category": "Kitchen Appliances",
+      "price": 6499,
+      "originalPrice": 8999,
+      "rating": 4.8,
+      "reviewsCount": 104,
+      "inStock": true,
+      "energyRating": "Smart Eco Standby",
+      "shortDesc": "Multi-stage cooking with baking, grilling, reheating, and 200+ auto-cook Indian menu presets.",
+      "description": "Prepare crispy tandoori rotis, bake cakes, or defrost meals in minutes. The durable ceramic enamel cavity is antibacterial, scratch-resistant, and effortless to wipe clean.",
+      "imageUrl": "/products/microwave_oven.jpg",
+      "specs": [
+        "28 Liters Convection Capacity",
+        "Bake, Grill, Defrost, & Reheat",
+        "Ceramic Enamel Cavity (99.9% Anti-Bacterial)",
+        "Touch Keypad with Child Lock",
+        "200+ Auto-Cook Recipes"
+      ],
+      "badge": "Chef Choice"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-IN-23364",
+      "items": [
+        {
+          "productId": "prod-1",
+          "name": "Smart Energy Meter Pro 3-Phase",
+          "price": 4299,
+          "quantity": 1
+        }
+      ],
+      "customer": {
+        "name": "Arjun Mehta",
+        "phone": "9876543210",
+        "address": "Flat 402, Green Acres, Baner Road",
+        "email": "chandanathosar@gmail.com",
+        "city": "Pune",
+        "pincode": "411045",
+        "whatsappConsent": true
+      },
+      "totalAmount": 4299,
+      "status": "confirmed",
+      "paymentStatus": "unpaid",
+      "paymentMethod": "cash_on_delivery",
+      "emailNotification": {
+        "customerStatus": "sent",
+        "adminStatus": "sent",
+        "customerDetails": "Email delivered successfully via Resend API (Message ID: 01a172b5-e3d1-7b6c-956c-0f1eeabc6386)",
+        "adminDetails": "Email delivered successfully via Resend API (Message ID: 01a172b5-e3ce-78bb-ab15-2cd888ba91e4)",
+        "lastAttemptAt": "2026-10-25T10:58:05.540Z"
+      },
+      "whatsappNotification": {
+        "customerStatus": "not_configured",
+        "adminStatus": "not_configured",
+        "customerDetails": "WhatsApp API is not yet configured. Set WHATSAPP_API_TOKEN & WHATSAPP_PHONE_NUMBER_ID (Meta Cloud API) or Twilio credentials in server environment or Admin Settings to enable live WhatsApp delivery.",
+        "adminDetails": "WhatsApp API is not yet configured. Set WHATSAPP_API_TOKEN & WHATSAPP_PHONE_NUMBER_ID (Meta Cloud API) or Twilio credentials in server environment or Admin Settings to enable live WhatsApp delivery.",
+        "lastAttemptAt": "2026-10-25T10:58:05.540Z"
+      },
+      "createdAt": "2026-10-25T10:58:05.207Z",
+      "updatedAt": "2026-10-25T10:58:05.207Z"
+    },
+    {
+      "id": "ORD-IN-97724",
+      "items": [
+        {
+          "productId": "prod-1-ceiling-fan",
+          "name": "BLDC Ultra-Quiet Ceiling Fan",
+          "price": 2499,
+          "quantity": 1,
+          "imageUrl": "/products/ceiling_fan.jpg"
+        }
+      ],
+      "customer": {
+        "name": "Rohan Joshi",
+        "phone": "+919876543210",
+        "address": "Flat 402, Green Glen Layout, Bellandur",
+        "email": "rohan.joshi@example.com",
+        "city": "Bengaluru",
+        "pincode": "560103"
+      },
+      "totalAmount": 2499,
+      "status": "dispatched",
+      "paymentStatus": "paid",
+      "paymentMethod": "phonepe",
+      "emailNotification": {
+        "customerStatus": "failed",
+        "adminStatus": "sent",
+        "customerDetails": "Email delivery failed: Invalid `to` field. Please use our testing email address instead of domains like `example.com`. See our documentation for more information.",
+        "adminDetails": "Email delivered successfully via Resend API (Message ID: 01a16ee2-310f-7d6f-878b-d8dc103da6ce)",
+        "lastAttemptAt": "2026-10-24T17:08:00.055Z"
+      },
+      "whatsappNotification": {
+        "customerStatus": "not_configured",
+        "adminStatus": "not_configured",
+        "customerDetails": "WhatsApp API is not yet configured. Set WHATSAPP_API_TOKEN & WHATSAPP_PHONE_NUMBER_ID (Meta Cloud API) or Twilio credentials in server environment or Admin Settings to enable live WhatsApp delivery.",
+        "adminDetails": "WhatsApp API is not yet configured. Set WHATSAPP_API_TOKEN & WHATSAPP_PHONE_NUMBER_ID (Meta Cloud API) or Twilio credentials in server environment or Admin Settings to enable live WhatsApp delivery.",
+        "lastAttemptAt": "2026-10-24T17:08:00.055Z"
+      },
+      "createdAt": "2026-10-24T17:07:59.519Z",
+      "updatedAt": "2026-10-24T17:08:52.818Z",
+      "paymentDetails": {
+        "upiTransactionRef": "UPI984712039485",
+        "upiApp": "phonepe",
+        "paymentMethodType": "upi",
+        "paidAt": "2026-10-24T17:08:40.118Z",
+        "verifiedAt": "2026-10-24T17:08:40.119Z",
+        "isTestMode": true
+      },
+      "trackingNumber": "BD829104821IN",
+      "carrierName": "Blue Dart Express"
+    },
+    {
+      "id": "ORD-IN-17677",
+      "items": [
+        {
+          "productId": "prod-2-refrigerator",
+          "name": "Frost-Free Inverter Refrigerator (265L)",
+          "price": 14999,
+          "quantity": 1,
+          "imageUrl": "/products/refrigerator.jpg"
+        }
+      ],
+      "customer": {
+        "name": "Vikram Malhotra",
+        "phone": "+919822099999",
+        "address": "104 Sapphire Heights, Aundh",
+        "email": "vikram.m@example.com",
+        "city": "Pune",
+        "pincode": "411007"
+      },
+      "totalAmount": 14999,
+      "status": "confirmed",
+      "paymentStatus": "unpaid",
+      "paymentMethod": "cash_on_delivery",
+      "emailNotification": {
+        "customerStatus": "failed",
+        "adminStatus": "failed",
+        "customerDetails": "Email delivery failed: Invalid `to` field. Please use our testing email address instead of domains like `example.com`. See our documentation for more information.",
+        "adminDetails": "Email delivery failed: Resend Domain Restriction: onboarding@resend.dev only delivers to your Resend account email address. To deliver to other customers (admin@electrocare.com), please verify your custom domain at resend.com/domains or configure SMTP credentials.",
+        "lastAttemptAt": "2026-10-24T16:34:32.560Z"
+      },
+      "whatsappNotification": {
+        "customerStatus": "not_configured",
+        "adminStatus": "not_configured",
+        "customerDetails": "WhatsApp API is not yet configured. Set WHATSAPP_API_TOKEN & WHATSAPP_PHONE_NUMBER_ID (Meta Cloud API) or Twilio credentials in server environment or Admin Settings to enable live WhatsApp delivery.",
+        "adminDetails": "WhatsApp API is not yet configured. Set WHATSAPP_API_TOKEN & WHATSAPP_PHONE_NUMBER_ID (Meta Cloud API) or Twilio credentials in server environment or Admin Settings to enable live WhatsApp delivery.",
+        "lastAttemptAt": "2026-10-24T16:34:32.560Z"
+      },
+      "createdAt": "2026-10-24T16:34:32.075Z",
+      "updatedAt": "2026-10-24T16:34:32.075Z"
+    },
+    {
+      "id": "ORD-IN-55341",
+      "items": [
+        {
+          "productId": "prod-1-ceiling-fan",
+          "name": "BLDC Ultra-Quiet Ceiling Fan",
+          "price": 2499,
+          "quantity": 2,
+          "imageUrl": "/products/ceiling_fan.jpg"
+        },
+        {
+          "productId": "prod-9-electric-iron",
+          "name": "Non-Stick Dry & Steam Electric Iron",
+          "price": 999,
+          "quantity": 1,
+          "imageUrl": "/products/steam_iron.jpg"
+        }
+      ],
+      "customer": {
+        "name": "Rajesh Sharma",
+        "phone": "+919811122233",
+        "address": "Flat 302, Green Meadows, Baner",
+        "email": "rajesh.sharma@example.com",
+        "city": "Pune",
+        "pincode": "411045"
+      },
+      "totalAmount": 5997,
+      "status": "confirmed",
+      "paymentMethod": "online_upi",
+      "emailNotification": {
+        "customerStatus": "not_configured",
+        "adminStatus": "not_configured",
+        "customerDetails": "Email service is not yet configured. Set RESEND_API_KEY or SENDGRID_API_KEY in server environment or Admin Settings to enable live email delivery.",
+        "adminDetails": "Email service is not yet configured. Set RESEND_API_KEY or SENDGRID_API_KEY in server environment or Admin Settings to enable live email delivery.",
+        "lastAttemptAt": "2026-10-23T16:14:44.426Z"
+      },
+      "whatsappNotification": {
+        "customerStatus": "not_configured",
+        "adminStatus": "not_configured",
+        "customerDetails": "WhatsApp API is not yet configured. Set WHATSAPP_API_TOKEN & WHATSAPP_PHONE_NUMBER_ID (Meta Cloud API) or Twilio credentials in server environment or Admin Settings to enable live WhatsApp delivery.",
+        "adminDetails": "WhatsApp API is not yet configured. Set WHATSAPP_API_TOKEN & WHATSAPP_PHONE_NUMBER_ID (Meta Cloud API) or Twilio credentials in server environment or Admin Settings to enable live WhatsApp delivery.",
+        "lastAttemptAt": "2026-10-23T16:14:44.426Z"
+      },
+      "createdAt": "2026-10-23T16:14:44.415Z",
+      "updatedAt": "2026-10-23T16:14:44.415Z",
+      "paymentStatus": "paid"
+    },
+    {
+      "id": "ORD-IN-59350",
+      "items": [
+        {
+          "productId": "prod-1-ceiling-fan",
+          "name": "BLDC Ultra-Quiet Ceiling Fan",
+          "price": 2499,
+          "quantity": 2,
+          "imageUrl": "/products/ceiling_fan.jpg"
+        },
+        {
+          "productId": "prod-9-electric-iron",
+          "name": "Non-Stick Dry & Steam Electric Iron",
+          "price": 999,
+          "quantity": 1,
+          "imageUrl": "/products/steam_iron.jpg"
+        }
+      ],
+      "customer": {
+        "name": "Ananya Deshmukh",
+        "phone": "+91 98231 45678",
+        "address": "Flat 203, Surya Residency, Kothrud",
+        "city": "Pune",
+        "pincode": "411038"
+      },
+      "totalAmount": 5997,
+      "status": "confirmed",
+      "paymentMethod": "cash_on_delivery",
+      "createdAt": "2026-10-23T15:46:13.480Z",
+      "updatedAt": "2026-10-23T15:46:13.480Z",
+      "paymentStatus": "paid"
+    },
+    {
+      "id": "ORD-EC-84190",
+      "items": [
+        {
+          "productId": "prod-3-air-conditioner",
+          "name": "Dual Inverter Split Air Conditioner (AC 1.5 Ton)",
+          "price": 29999,
+          "quantity": 1,
+          "imageUrl": "/products/air_conditioner.jpg"
+        },
+        {
+          "productId": "prod-1-ceiling-fan",
+          "name": "BLDC Ultra-Quiet Ceiling Fan",
+          "price": 2499,
+          "quantity": 2,
+          "imageUrl": "/products/ceiling_fan.jpg"
+        }
+      ],
+      "customer": {
+        "name": "Rajesh Sharma",
+        "phone": "+91 98220 12345",
+        "address": "Flat 402, Green Meadows, Senapati Bapat Road",
+        "city": "Pune",
+        "pincode": "411016",
+        "email": "rajesh.sharma@gmail.com",
+        "notes": "Please arrange delivery on Saturday morning."
+      },
+      "totalAmount": 34997,
+      "status": "processing",
+      "trackingNumber": "DELHIVERY-948201",
+      "paymentMethod": "cash_on_delivery",
+      "createdAt": "2026-10-22T21:46:02.334Z",
+      "updatedAt": "2026-10-23T09:46:02.334Z",
+      "paymentStatus": "paid"
+    },
+    {
+      "id": "ORD-EC-51204",
+      "items": [
+        {
+          "productId": "prod-7-water-purifier",
+          "name": "RO + UV + MTDS Alkaline Water Purifier",
+          "price": 6999,
+          "quantity": 1,
+          "imageUrl": "/products/water_purifier.jpg"
+        },
+        {
+          "productId": "prod-9-electric-iron",
+          "name": "Non-Stick Dry & Steam Electric Iron",
+          "price": 999,
+          "quantity": 1,
+          "imageUrl": "/products/steam_iron.jpg"
+        }
+      ],
+      "customer": {
+        "name": "Pooja Kulkarni",
+        "phone": "+91 98450 67890",
+        "address": "Plot 12, Sahakar Nagar, Near City Pride",
+        "city": "Pune",
+        "pincode": "411009",
+        "email": "pooja.k@gmail.com"
+      },
+      "totalAmount": 7998,
+      "status": "confirmed",
+      "paymentMethod": "online_upi",
+      "createdAt": "2026-10-23T11:46:02.334Z",
+      "updatedAt": "2026-10-23T11:46:02.334Z",
+      "paymentStatus": "paid"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "BK-EC-52309",
+      "customerName": "Pooja Deshmukh",
+      "email": "chandanathosar@gmail.com",
+      "phone": "9822099999",
+      "serviceName": "Solar PV Rooftop Integration & Net Metering",
+      "preferredDate": "2026-11-15",
+      "preferredTime": "11:00 AM",
+      "consultationType": "In-person",
+      "notes": "Interested in 5kW rooftop solar feasibility study for bungalow.",
+      "address": "Bungalow 12, Pradhikaran, Nigdi, Pune",
+      "whatsappConsent": true,
+      "status": "confirmed",
+      "emailNotification": {
+        "customerStatus": "sent",
+        "adminStatus": "sent",
+        "customerDetails": "Email delivered successfully via Resend API (Message ID: 01a172b6-a6fd-76e1-a265-51198bb07ecf)",
+        "adminDetails": "Email delivered successfully via Resend API (Message ID: 01a172b6-a6fb-7b50-a5a9-b586f9639f60)",
+        "lastAttemptAt": "2026-10-25T10:58:55.499Z"
+      },
+      "whatsappNotification": {
+        "customerStatus": "not_configured",
+        "adminStatus": "not_configured",
+        "customerDetails": "WhatsApp API is not yet configured. Set WHATSAPP_API_TOKEN & WHATSAPP_PHONE_NUMBER_ID (Meta Cloud API) or Twilio credentials in server environment or Admin Settings to enable live WhatsApp delivery.",
+        "adminDetails": "WhatsApp API is not yet configured. Set WHATSAPP_API_TOKEN & WHATSAPP_PHONE_NUMBER_ID (Meta Cloud API) or Twilio credentials in server environment or Admin Settings to enable live WhatsApp delivery.",
+        "lastAttemptAt": "2026-10-25T10:58:55.499Z"
+      },
+      "createdAt": "2026-10-25T10:58:55.233Z",
+      "updatedAt": "2026-10-25T10:58:55.233Z"
+    },
+    {
+      "id": "BK-EC-61094",
+      "customerName": "Dr. Ananya Sen",
+      "email": "ananya.sen@example.com",
+      "phone": "+919876543210",
+      "serviceName": "Electricity Bill Reduction Consultation",
+      "preferredDate": "2026-11-20",
+      "preferredTime": "10:30 AM",
+      "consultationType": "Online",
+      "notes": "Heavy HVAC energy spike during peak hours",
+      "status": "confirmed",
+      "emailNotification": {
+        "customerStatus": "not_configured",
+        "adminStatus": "not_configured",
+        "customerDetails": "Email service is not yet configured. Set RESEND_API_KEY or SENDGRID_API_KEY in server environment or Admin Settings to enable live email delivery.",
+        "adminDetails": "Email service is not yet configured. Set RESEND_API_KEY or SENDGRID_API_KEY in server environment or Admin Settings to enable live email delivery.",
+        "lastAttemptAt": "2026-10-23T16:14:56.470Z"
+      },
+      "whatsappNotification": {
+        "customerStatus": "not_configured",
+        "adminStatus": "not_configured",
+        "customerDetails": "WhatsApp API is not yet configured. Set WHATSAPP_API_TOKEN & WHATSAPP_PHONE_NUMBER_ID (Meta Cloud API) or Twilio credentials in server environment or Admin Settings to enable live WhatsApp delivery.",
+        "adminDetails": "WhatsApp API is not yet configured. Set WHATSAPP_API_TOKEN & WHATSAPP_PHONE_NUMBER_ID (Meta Cloud API) or Twilio credentials in server environment or Admin Settings to enable live WhatsApp delivery.",
+        "lastAttemptAt": "2026-10-23T16:14:33.036Z"
+      },
+      "createdAt": "2026-10-23T16:14:33.034Z",
+      "updatedAt": "2026-10-23T16:14:33.034Z"
+    }
+  ],
+  "notificationLogs": [
+    {
+      "id": "log-1792925935499-275",
+      "entityType": "booking",
+      "entityId": "BK-EC-52309",
+      "channel": "email",
+      "recipient": "chandanathosar@gmail.com",
+      "recipientType": "admin",
+      "status": "sent",
+      "details": "Email delivered successfully via Resend API (Message ID: 01a172b6-a6fb-7b50-a5a9-b586f9639f60)",
+      "timestamp": "2026-10-25T10:58:55.499Z"
+    },
+    {
+      "id": "log-1792925935493-942",
+      "entityType": "booking",
+      "entityId": "BK-EC-52309",
+      "channel": "email",
+      "recipient": "chandanathosar@gmail.com",
+      "recipientType": "customer",
+      "status": "sent",
+      "details": "Email delivered successfully via Resend API (Message ID: 01a172b6-a6fd-76e1-a265-51198bb07ecf)",
+      "timestamp": "2026-10-25T10:58:55.493Z"
+    },
+    {
+      "id": "log-1792925935237-861",
+      "entityType": "booking",
+      "entityId": "BK-EC-52309",
+      "channel": "whatsapp",
+      "recipient": "+919822012345",
+      "recipientType": "admin",
+      "status": "not_configured",
+      "details": "WhatsApp API is not yet configured. Set WHATSAPP_API_TOKEN & WHATSAPP_PHONE_NUMBER_ID (Meta Cloud API) or Twilio credentials in server environment or Admin Settings to enable live WhatsApp delivery.",
+      "timestamp": "2026-10-25T10:58:55.237Z"
+    },
+    {
+      "id": "log-1792925935237-565",
+      "entityType": "booking",
+      "entityId": "BK-EC-52309",
+      "channel": "whatsapp",
+      "recipient": "+919822099999",
+      "recipientType": "customer",
+      "status": "not_configured",
+      "details": "WhatsApp API is not yet configured. Set WHATSAPP_API_TOKEN & WHATSAPP_PHONE_NUMBER_ID (Meta Cloud API) or Twilio credentials in server environment or Admin Settings to enable live WhatsApp delivery.",
+      "timestamp": "2026-10-25T10:58:55.237Z"
+    },
+    {
+      "id": "log-1792925885539-188",
+      "entityType": "order",
+      "entityId": "ORD-IN-23364",
+      "channel": "email",
+      "recipient": "chandanathosar@gmail.com",
+      "recipientType": "admin",
+      "status": "sent",
+      "details": "Email delivered successfully via Resend API (Message ID: 01a172b5-e3ce-78bb-ab15-2cd888ba91e4)",
+      "timestamp": "2026-10-25T10:58:05.539Z"
+    },
+    {
+      "id": "log-1792925885531-976",
+      "entityType": "order",
+      "entityId": "ORD-IN-23364",
+      "channel": "email",
+      "recipient": "chandanathosar@gmail.com",
+      "recipientType": "customer",
+      "status": "sent",
+      "details": "Email delivered successfully via Resend API (Message ID: 01a172b5-e3d1-7b6c-956c-0f1eeabc6386)",
+      "timestamp": "2026-10-25T10:58:05.531Z"
+    },
+    {
+      "id": "log-1792925885250-77",
+      "entityType": "order",
+      "entityId": "ORD-IN-23364",
+      "channel": "whatsapp",
+      "recipient": "+919822012345",
+      "recipientType": "admin",
+      "status": "not_configured",
+      "details": "WhatsApp API is not yet configured. Set WHATSAPP_API_TOKEN & WHATSAPP_PHONE_NUMBER_ID (Meta Cloud API) or Twilio credentials in server environment or Admin Settings to enable live WhatsApp delivery.",
+      "timestamp": "2026-10-25T10:58:05.250Z"
+    },
+    {
+      "id": "log-1792925885250-744",
+      "entityType": "order",
+      "entityId": "ORD-IN-23364",
+      "channel": "whatsapp",
+      "recipient": "+919876543210",
+      "recipientType": "customer",
+      "status": "not_configured",
+      "details": "WhatsApp API is not yet configured. Set WHATSAPP_API_TOKEN & WHATSAPP_PHONE_NUMBER_ID (Meta Cloud API) or Twilio credentials in server environment or Admin Settings to enable live WhatsApp delivery.",
+      "timestamp": "2026-10-25T10:58:05.250Z"
+    },
+    {
+      "id": "log-1792861720351-846",
+      "entityType": "order",
+      "entityId": "ORD-IN-97724",
+      "channel": "email",
+      "recipient": "rohan.joshi@example.com",
+      "recipientType": "customer",
+      "status": "failed",
+      "details": "Email delivery failed: Invalid `to` field. Please use our testing email address instead of domains like `example.com`. See our documentation for more information.",
+      "timestamp": "2026-10-24T17:08:40.351Z"
+    },
+    {
+      "id": "log-1792861680055-38",
+      "entityType": "order",
+      "entityId": "ORD-IN-97724",
+      "channel": "whatsapp",
+      "recipient": "+919822012345",
+      "recipientType": "admin",
+      "status": "not_configured",
+      "details": "WhatsApp API is not yet configured. Set WHATSAPP_API_TOKEN & WHATSAPP_PHONE_NUMBER_ID (Meta Cloud API) or Twilio credentials in server environment or Admin Settings to enable live WhatsApp delivery.",
+      "timestamp": "2026-10-24T17:08:00.055Z"
+    },
+    {
+      "id": "log-1792861680055-114",
+      "entityType": "order",
+      "entityId": "ORD-IN-97724",
+      "channel": "whatsapp",
+      "recipient": "+919876543210",
+      "recipientType": "customer",
+      "status": "not_configured",
+      "details": "WhatsApp API is not yet configured. Set WHATSAPP_API_TOKEN & WHATSAPP_PHONE_NUMBER_ID (Meta Cloud API) or Twilio credentials in server environment or Admin Settings to enable live WhatsApp delivery.",
+      "timestamp": "2026-10-24T17:08:00.055Z"
+    },
+    {
+      "id": "log-1792861680054-970",
+      "entityType": "order",
+      "entityId": "ORD-IN-97724",
+      "channel": "email",
+      "recipient": "chandanathosar@gmail.com",
+      "recipientType": "admin",
+      "status": "sent",
+      "details": "Email delivered successfully via Resend API (Message ID: 01a16ee2-310f-7d6f-878b-d8dc103da6ce)",
+      "timestamp": "2026-10-24T17:08:00.054Z"
+    },
+    {
+      "id": "log-1792861679772-494",
+      "entityType": "order",
+      "entityId": "ORD-IN-97724",
+      "channel": "email",
+      "recipient": "rohan.joshi@example.com",
+      "recipientType": "customer",
+      "status": "failed",
+      "details": "Email delivery failed: Invalid `to` field. Please use our testing email address instead of domains like `example.com`. See our documentation for more information.",
+      "timestamp": "2026-10-24T17:07:59.772Z"
+    },
+    {
+      "id": "log-1792859672560-158",
+      "entityType": "order",
+      "entityId": "ORD-IN-17677",
+      "channel": "whatsapp",
+      "recipient": "+919822012345",
+      "recipientType": "admin",
+      "status": "not_configured",
+      "details": "WhatsApp API is not yet configured. Set WHATSAPP_API_TOKEN & WHATSAPP_PHONE_NUMBER_ID (Meta Cloud API) or Twilio credentials in server environment or Admin Settings to enable live WhatsApp delivery.",
+      "timestamp": "2026-10-24T16:34:32.560Z"
+    },
+    {
+      "id": "log-1792859672560-936",
+      "entityType": "order",
+      "entityId": "ORD-IN-17677",
+      "channel": "whatsapp",
+      "recipient": "+919822099999",
+      "recipientType": "customer",
+      "status": "not_configured",
+      "details": "WhatsApp API is not yet configured. Set WHATSAPP_API_TOKEN & WHATSAPP_PHONE_NUMBER_ID (Meta Cloud API) or Twilio credentials in server environment or Admin Settings to enable live WhatsApp delivery.",
+      "timestamp": "2026-10-24T16:34:32.560Z"
+    },
+    {
+      "id": "log-1792859672560-692",
+      "entityType": "order",
+      "entityId": "ORD-IN-17677",
+      "channel": "email",
+      "recipient": "admin@electrocare.com",
+      "recipientType": "admin",
+      "status": "failed",
+      "details": "Email delivery failed: Resend Domain Restriction: onboarding@resend.dev only delivers to your Resend account email address. To deliver to other customers (admin@electrocare.com), please verify your custom domain at resend.com/domains or configure SMTP credentials.",
+      "timestamp": "2026-10-24T16:34:32.560Z"
+    },
+    {
+      "id": "log-1792859672359-38",
+      "entityType": "order",
+      "entityId": "ORD-IN-17677",
+      "channel": "email",
+      "recipient": "vikram.m@example.com",
+      "recipientType": "customer",
+      "status": "failed",
+      "details": "Email delivery failed: Invalid `to` field. Please use our testing email address instead of domains like `example.com`. See our documentation for more information.",
+      "timestamp": "2026-10-24T16:34:32.359Z"
+    },
+    {
+      "id": "log-1792772096469-996",
+      "entityType": "booking",
+      "entityId": "BK-EC-61094",
+      "channel": "email",
+      "recipient": "ananya.sen@example.com",
+      "recipientType": "customer",
+      "status": "not_configured",
+      "details": "Email service is not yet configured. Set RESEND_API_KEY or SENDGRID_API_KEY in server environment or Admin Settings to enable live email delivery.",
+      "timestamp": "2026-10-23T16:14:56.469Z"
+    },
+    {
+      "id": "log-1792772084426-940",
+      "entityType": "order",
+      "entityId": "ORD-IN-55341",
+      "channel": "whatsapp",
+      "recipient": "+919822012345",
+      "recipientType": "admin",
+      "status": "not_configured",
+      "details": "WhatsApp API is not yet configured. Set WHATSAPP_API_TOKEN & WHATSAPP_PHONE_NUMBER_ID (Meta Cloud API) or Twilio credentials in server environment or Admin Settings to enable live WhatsApp delivery.",
+      "timestamp": "2026-10-23T16:14:44.426Z"
+    },
+    {
+      "id": "log-1792772084426-807",
+      "entityType": "order",
+      "entityId": "ORD-IN-55341",
+      "channel": "whatsapp",
+      "recipient": "+919811122233",
+      "recipientType": "customer",
+      "status": "not_configured",
+      "details": "WhatsApp API is not yet configured. Set WHATSAPP_API_TOKEN & WHATSAPP_PHONE_NUMBER_ID (Meta Cloud API) or Twilio credentials in server environment or Admin Settings to enable live WhatsApp delivery.",
+      "timestamp": "2026-10-23T16:14:44.426Z"
+    },
+    {
+      "id": "log-1792772084425-322",
+      "entityType": "order",
+      "entityId": "ORD-IN-55341",
+      "channel": "email",
+      "recipient": "admin@electrocare.com",
+      "recipientType": "admin",
+      "status": "not_configured",
+      "details": "Email service is not yet configured. Set RESEND_API_KEY or SENDGRID_API_KEY in server environment or Admin Settings to enable live email delivery.",
+      "timestamp": "2026-10-23T16:14:44.425Z"
+    },
+    {
+      "id": "log-1792772084425-160",
+      "entityType": "order",
+      "entityId": "ORD-IN-55341",
+      "channel": "email",
+      "recipient": "rajesh.sharma@example.com",
+      "recipientType": "customer",
+      "status": "not_configured",
+      "details": "Email service is not yet configured. Set RESEND_API_KEY or SENDGRID_API_KEY in server environment or Admin Settings to enable live email delivery.",
+      "timestamp": "2026-10-23T16:14:44.425Z"
+    },
+    {
+      "id": "log-1792772073036-878",
+      "entityType": "booking",
+      "entityId": "BK-EC-61094",
+      "channel": "whatsapp",
+      "recipient": "+919822012345",
+      "recipientType": "admin",
+      "status": "not_configured",
+      "details": "WhatsApp API is not yet configured. Set WHATSAPP_API_TOKEN & WHATSAPP_PHONE_NUMBER_ID (Meta Cloud API) or Twilio credentials in server environment or Admin Settings to enable live WhatsApp delivery.",
+      "timestamp": "2026-10-23T16:14:33.036Z"
+    },
+    {
+      "id": "log-1792772073036-540",
+      "entityType": "booking",
+      "entityId": "BK-EC-61094",
+      "channel": "whatsapp",
+      "recipient": "+919876543210",
+      "recipientType": "customer",
+      "status": "not_configured",
+      "details": "WhatsApp API is not yet configured. Set WHATSAPP_API_TOKEN & WHATSAPP_PHONE_NUMBER_ID (Meta Cloud API) or Twilio credentials in server environment or Admin Settings to enable live WhatsApp delivery.",
+      "timestamp": "2026-10-23T16:14:33.036Z"
+    },
+    {
+      "id": "log-1792772073036-526",
+      "entityType": "booking",
+      "entityId": "BK-EC-61094",
+      "channel": "email",
+      "recipient": "admin@electrocare.com",
+      "recipientType": "admin",
+      "status": "not_configured",
+      "details": "Email service is not yet configured. Set RESEND_API_KEY or SENDGRID_API_KEY in server environment or Admin Settings to enable live email delivery.",
+      "timestamp": "2026-10-23T16:14:33.036Z"
+    },
+    {
+      "id": "log-1792772073035-671",
+      "entityType": "booking",
+      "entityId": "BK-EC-61094",
+      "channel": "email",
+      "recipient": "ananya.sen@example.com",
+      "recipientType": "customer",
+      "status": "not_configured",
+      "details": "Email service is not yet configured. Set RESEND_API_KEY or SENDGRID_API_KEY in server environment or Admin Settings to enable live email delivery.",
+      "timestamp": "2026-10-23T16:14:33.035Z"
+    }
+  ],
+  "dispatchedNotifications": {
+    "order:ORD-IN-97724:order_registered_admin:chandanathosar@gmail.com": "2026-10-24T17:08:00.054Z",
+    "order:ORD-IN-23364:order_registered_customer:chandanathosar@gmail.com": "2026-10-25T10:58:05.531Z",
+    "order:ORD-IN-23364:order_registered_admin:chandanathosar@gmail.com": "2026-10-25T10:58:05.539Z",
+    "booking:BK-EC-52309:booking_confirmed_customer:chandanathosar@gmail.com": "2026-10-25T10:58:55.493Z",
+    "booking:BK-EC-52309:booking_confirmed_admin:chandanathosar@gmail.com": "2026-10-25T10:58:55.499Z"
+  },
+  "notificationSettings": {
+    "adminEmail": "chandanathosar@gmail.com",
+    "adminWhatsApp": "+919822012345",
+    "emailFrom": "ElectroCare Notifications <onboarding@resend.dev>",
+    "resendApiKey": "",
+    "sendgridApiKey": "",
+    "whatsappToken": "",
+    "whatsappPhoneId": "",
+    "twilioSid": "",
+    "twilioAuth": "",
+    "twilioFrom": "whatsapp:+14155238886",
+    "razorpayKeyId": "",
+    "razorpayKeySecret": "",
+    "paymentTestMode": true,
+    "upiVpa": "electrocare@upi",
+    "upiMerchantName": "ElectroCare Consultancy",
+    "phonepeMerchantId": "",
+    "phonepeSaltKey": "",
+    "phonepeSaltIndex": "1"
+  },
+  "stats": {
+    "totalAuditsCompleted": 1420,
+    "estimatedSavedKWh": 3850000
+  }
+}

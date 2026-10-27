@@ -1,0 +1,6 @@
+{
+  "name": "ElectroCare Consultancy",
+  "description": "Professional Electronic & Energy Saving Consultancy Services, Appliance Consultation, and Energy Audits.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
